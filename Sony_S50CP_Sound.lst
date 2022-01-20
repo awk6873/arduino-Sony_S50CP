@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.1.43  D:\1Projects\Hobby\AVR\SonyS50CP\Main.asm Sun Feb 18 18:52:27 2018
+AVRASM ver. 2.1.43  D:\1Projects\Hobby\AVR\SonyS50CP\Main.asm Sat Mar 24 15:02:37 2018
 
 D:\1Projects\Hobby\AVR\SonyS50CP\Main.asm(39): Including file 'D:\1Projects\Hobby\AVR\SonyS50CP\tn13def.inc'
                  
@@ -741,9 +741,9 @@ D:\1Projects\Hobby\AVR\SonyS50CP\Main.asm(39): Including file 'D:\1Projects\Hobb
 00006f e031      	ldi r19, 1<<CS00
 000070 bf33      	out TCCR0B, r19
                  
-                 	; константа дл€ таймера дл€ получени€ частоты ~280 к√ц
+                 	; константа дл€ таймера дл€ получени€ частоты ~200 к√ц
                  	; (удвоенна€ частота передачи выходных сигналов)
-000071 e232      	ldi r19, 34
+000071 e134      	ldi r19, 20
 000072 bf36      	out OCR0A, r19
                  
 000073 9508      	ret
