@@ -1,0 +1,2 @@
+@ECHO OFF
+"D:\Distr\Atmel\avrasm2\avrassembler\avrasm2.exe" -S "D:\1Projects\Hobby\AVR\SonyS50CP\labels.tmp" -fI -W+ie -o "D:\1Projects\Hobby\AVR\SonyS50CP\Sony_S50CP_Sound.hex" -d "D:\1Projects\Hobby\AVR\SonyS50CP\Sony_S50CP_Sound.obj" -e "D:\1Projects\Hobby\AVR\SonyS50CP\Sony_S50CP_Sound.eep" -m "D:\1Projects\Hobby\AVR\SonyS50CP\Sony_S50CP_Sound.map" -l "D:\1Projects\Hobby\AVR\SonyS50CP\Sony_S50CP_Sound.lst" "D:\1Projects\Hobby\AVR\SonyS50CP\Main.asm"
